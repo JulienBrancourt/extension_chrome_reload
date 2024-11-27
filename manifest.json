@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Reload all the Tabs",
+    "version": "1.0",
+    "description": "Recharge tous les onglets en même temps",
+    "permissions": ["tabs"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Reload all the Tabs"
+    },
+    "icons": {
+        "128": "icon128.png"
+    }
+}
